@@ -11,7 +11,7 @@ After configuring the diagnostics, navigate to the Event Hub end point and in th
 
 ## Deploy the custom REST Service to receive the logs from Azure Functions
 This is a simple ASP.NET Core 2.0 Web API project that will receive the Logs coming in from Azure Functions (configured in the next section below). This is to mimic a third party Solution that would want to handle Diagnostic logs.
-The Visual Studio 2017 Project for this REST Service is included in this repository.
+The Visual Studio 2017 Project for this REST Service 'LogReceiverService' is included in this repository.
 This custom code uses Application Insights to send the trace information. 
 To view the telemetry when running this sample, create an Application Inisights resource in Azure, and enter its Security key inside the appsettings.json file of the Project. Publish this Project to a Web App in Azure. The URL of the LogReceiverController Service would be required in the next section below, in the Function App.
 
