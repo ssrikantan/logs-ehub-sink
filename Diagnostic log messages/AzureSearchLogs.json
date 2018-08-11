@@ -1,0 +1,36 @@
+{
+    "records": [
+        {
+            "time": "2018-08-11T01:51:25.9815862Z",
+            "resourceId": "/SUBSCRIPTIONS/MySubscriptionId/RESOURCEGROUPS/DATANALYTICSRG/PROVIDERS/MICROSOFT.SEARCH/SEARCHSERVICES/SECOSMOS",
+            "operationName": "Query.Search",
+            "operationVersion": "2017-11-11",
+            "category": "OperationLogs",
+            "resultType": "Success",
+            "resultSignature": 200,
+            "durationMS": 412,
+            "properties": {
+                "Description": "GET /indexes('documentdb-index')/docs",
+                "Query": "?api-version=2017-11-11&search=*",
+                "Documents": 4,
+                "IndexName": "documentdb-index"
+            }
+        },
+        {
+            "time": "2018-08-11T01:51:43.3241517Z",
+            "resourceId": "/SUBSCRIPTIONS/MySubscriptionId/RESOURCEGROUPS/DATANALYTICSRG/PROVIDERS/MICROSOFT.SEARCH/SEARCHSERVICES/SECOSMOS",
+            "operationName": "Query.Search",
+            "operationVersion": "2017-11-11",
+            "category": "OperationLogs",
+            "resultType": "Success",
+            "resultSignature": 200,
+            "durationMS": 131,
+            "properties": {
+                "Description": "GET /indexes('documentdb-index')/docs",
+                "Query": "?api-version=2017-11-11&search=LastName%3ALewis",
+                "Documents": 0,
+                "IndexName": "documentdb-index"
+            }
+        }
+    ]
+}

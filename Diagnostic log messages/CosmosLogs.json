@@ -1,0 +1,180 @@
+{
+    "records": [
+        {
+            "time": "2018-08-10T07:45:04.9989255Z",
+            "resourceId": "/SUBSCRIPTIONS/MySubscriptionId/RESOURCEGROUPS/DATANALYTICSRG/PROVIDERS/MICROSOFT.DOCUMENTDB/DATABASEACCOUNTS/COSMOSONEDB",
+            "category": "DataPlaneRequests",
+            "operationName": "Query",
+            "properties": {
+                "activityId": "2f88f35a-0523-4f4a-ba1f-afb251c0b426",
+                "requestResourceType": "Document",
+                "requestResourceId": "2Cs6AP6sIqY=",
+                "collectionRid": "2Cs6AP6sIqY=",
+                "statusCode": "200",
+                "duration": "7868",
+                "userAgent": "Microsoft.Azure.Documents.Common/2.0.0.0",
+                "clientIpAddress": "10.0.0.23",
+                "requestCharge": "2.376",
+                "requestLength": "187",
+                "responseLength": "450",
+                "resourceTokenUserRid": "",
+                "region": "Southeast Asia",
+                "partitionId": "3f9a48fe-3180-4216-8cb2-9c1a015d13ba"
+            }
+        },
+        {
+            "time": "2018-08-10T07:46:42.0502228Z",
+            "resourceId": "/SUBSCRIPTIONS/MySubscriptionId/RESOURCEGROUPS/DATANALYTICSRG/PROVIDERS/MICROSOFT.DOCUMENTDB/DATABASEACCOUNTS/COSMOSONEDB",
+            "category": "DataPlaneRequests",
+            "operationName": "Query",
+            "properties": {
+                "activityId": "8806b801-a535-48f9-af8d-ed4f0a81fe9e",
+                "requestResourceType": "Document",
+                "requestResourceId": "2Cs6AP6sIqY=",
+                "collectionRid": "2Cs6AP6sIqY=",
+                "statusCode": "200",
+                "duration": "9672",
+                "userAgent": "Microsoft.Azure.Documents.Common/2.0.0.0",
+                "clientIpAddress": "10.0.0.23",
+                "requestCharge": "2.376",
+                "requestLength": "187",
+                "responseLength": "450",
+                "resourceTokenUserRid": "",
+                "region": "Southeast Asia",
+                "partitionId": "3f9a48fe-3180-4216-8cb2-9c1a015d13ba"
+            }
+        },
+        {
+            "time": "2018-08-10T07:46:52.8491590Z",
+            "resourceId": "/SUBSCRIPTIONS/MySubscriptionId/RESOURCEGROUPS/DATANALYTICSRG/PROVIDERS/MICROSOFT.DOCUMENTDB/DATABASEACCOUNTS/COSMOSONEDB",
+            "category": "DataPlaneRequests",
+            "operationName": "Query",
+            "properties": {
+                "activityId": "0c101db1-d2d3-461b-9d58-ae92ad3b43f4",
+                "requestResourceType": "Document",
+                "requestResourceId": "2Cs6AP6sIqY=",
+                "collectionRid": "2Cs6AP6sIqY=",
+                "statusCode": "200",
+                "duration": "12098",
+                "userAgent": "Microsoft.Azure.Documents.Common/2.0.0.0",
+                "clientIpAddress": "10.0.0.23",
+                "requestCharge": "2.376",
+                "requestLength": "187",
+                "responseLength": "450",
+                "resourceTokenUserRid": "",
+                "region": "Southeast Asia",
+                "partitionId": "3f9a48fe-3180-4216-8cb2-9c1a015d13ba"
+            }
+        },
+        {
+            "time": "2018-08-10T07:47:03.6157993Z",
+            "resourceId": "/SUBSCRIPTIONS/MySubscriptionId/RESOURCEGROUPS/DATANALYTICSRG/PROVIDERS/MICROSOFT.DOCUMENTDB/DATABASEACCOUNTS/COSMOSONEDB",
+            "category": "DataPlaneRequests",
+            "operationName": "Query",
+            "properties": {
+                "activityId": "f8fda83d-2987-43cf-acb1-3782dad54248",
+                "requestResourceType": "Document",
+                "requestResourceId": "2Cs6AP6sIqY=",
+                "collectionRid": "2Cs6AP6sIqY=",
+                "statusCode": "200",
+                "duration": "8027",
+                "userAgent": "Microsoft.Azure.Documents.Common/2.0.0.0",
+                "clientIpAddress": "10.0.0.23",
+                "requestCharge": "2.376",
+                "requestLength": "187",
+                "responseLength": "450",
+                "resourceTokenUserRid": "",
+                "region": "Southeast Asia",
+                "partitionId": "3f9a48fe-3180-4216-8cb2-9c1a015d13ba"
+            }
+        },
+        {
+            "time": "2018-08-10T07:47:14.4188659Z",
+            "resourceId": "/SUBSCRIPTIONS/MySubscriptionId/RESOURCEGROUPS/DATANALYTICSRG/PROVIDERS/MICROSOFT.DOCUMENTDB/DATABASEACCOUNTS/COSMOSONEDB",
+            "category": "DataPlaneRequests",
+            "operationName": "Query",
+            "properties": {
+                "activityId": "6528f3cc-efba-41e4-b211-d35ea1128774",
+                "requestResourceType": "Document",
+                "requestResourceId": "2Cs6AP6sIqY=",
+                "collectionRid": "2Cs6AP6sIqY=",
+                "statusCode": "200",
+                "duration": "10922",
+                "userAgent": "Microsoft.Azure.Documents.Common/2.0.0.0",
+                "clientIpAddress": "10.0.0.23",
+                "requestCharge": "2.376",
+                "requestLength": "187",
+                "responseLength": "450",
+                "resourceTokenUserRid": "",
+                "region": "Southeast Asia",
+                "partitionId": "3f9a48fe-3180-4216-8cb2-9c1a015d13ba"
+            }
+        },
+        {
+            "time": "2018-08-10T07:47:36.0465799Z",
+            "resourceId": "/SUBSCRIPTIONS/MySubscriptionId/RESOURCEGROUPS/DATANALYTICSRG/PROVIDERS/MICROSOFT.DOCUMENTDB/DATABASEACCOUNTS/COSMOSONEDB",
+            "category": "DataPlaneRequests",
+            "operationName": "Query",
+            "properties": {
+                "activityId": "fdfa517b-c3e9-4776-aa6a-4a721228cd98",
+                "requestResourceType": "Document",
+                "requestResourceId": "2Cs6AP6sIqY=",
+                "collectionRid": "2Cs6AP6sIqY=",
+                "statusCode": "200",
+                "duration": "7913",
+                "userAgent": "Microsoft.Azure.Documents.Common/2.0.0.0",
+                "clientIpAddress": "10.0.0.23",
+                "requestCharge": "2.376",
+                "requestLength": "187",
+                "responseLength": "450",
+                "resourceTokenUserRid": "",
+                "region": "Southeast Asia",
+                "partitionId": "3f9a48fe-3180-4216-8cb2-9c1a015d13ba"
+            }
+        },
+        {
+            "time": "2018-08-10T07:47:46.8437476Z",
+            "resourceId": "/SUBSCRIPTIONS/MySubscriptionId/RESOURCEGROUPS/DATANALYTICSRG/PROVIDERS/MICROSOFT.DOCUMENTDB/DATABASEACCOUNTS/COSMOSONEDB",
+            "category": "DataPlaneRequests",
+            "operationName": "Query",
+            "properties": {
+                "activityId": "e85f0254-61e2-4d43-9e89-90226be8e71e",
+                "requestResourceType": "Document",
+                "requestResourceId": "2Cs6AP6sIqY=",
+                "collectionRid": "2Cs6AP6sIqY=",
+                "statusCode": "200",
+                "duration": "9194",
+                "userAgent": "Microsoft.Azure.Documents.Common/2.0.0.0",
+                "clientIpAddress": "10.0.0.23",
+                "requestCharge": "2.376",
+                "requestLength": "187",
+                "responseLength": "450",
+                "resourceTokenUserRid": "",
+                "region": "Southeast Asia",
+                "partitionId": "3f9a48fe-3180-4216-8cb2-9c1a015d13ba"
+            }
+        },
+        {
+            "time": "2018-08-10T07:48:19.2457166Z",
+            "resourceId": "/SUBSCRIPTIONS/MySubscriptionId/RESOURCEGROUPS/DATANALYTICSRG/PROVIDERS/MICROSOFT.DOCUMENTDB/DATABASEACCOUNTS/COSMOSONEDB",
+            "category": "DataPlaneRequests",
+            "operationName": "Query",
+            "properties": {
+                "activityId": "ab54b38e-898c-44d9-bcb8-1f5b6a865b5a",
+                "requestResourceType": "Document",
+                "requestResourceId": "2Cs6AP6sIqY=",
+                "collectionRid": "2Cs6AP6sIqY=",
+                "statusCode": "200",
+                "duration": "7532",
+                "userAgent": "Microsoft.Azure.Documents.Common/2.0.0.0",
+                "clientIpAddress": "10.0.0.23",
+                "requestCharge": "2.376",
+                "requestLength": "187",
+                "responseLength": "450",
+                "resourceTokenUserRid": "",
+                "region": "Southeast Asia",
+                "partitionId": "3f9a48fe-3180-4216-8cb2-9c1a015d13ba"
+            }
+        }
+    ]
+}
