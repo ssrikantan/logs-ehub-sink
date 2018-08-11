@@ -26,7 +26,7 @@ Since this code depends on additional packages to run, create a Project.JSON fil
 Ensure the Log console on the Function's run.csx file indicates it has successfully compiled and is running.
 The Messages from Event Hubs should be visible in this console.
 
-<img src="./images/kuduconsole.PNG" alt="drawing" height="700px"/>
+<img src="./images/kuduconsole.PNG" alt="drawing" height="500px"/>
 
 Update the URL of the custom REST Service in the run.csx to send the Messages to (from the previous section).
 
@@ -35,7 +35,7 @@ https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference#fileu
 https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-local
 
 
-<img src="./images/functionapp.PNG" alt="drawing" height="700px"/>
+<img src="./images/functionapp.PNG" alt="drawing" height="500px"/>
 
 ## View the Application Insights Telemetry
 View the Trace in Application Insights to ensure the Diagnostics Logs were received from the Function App.
