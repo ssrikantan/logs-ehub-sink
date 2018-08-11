@@ -6,7 +6,8 @@ Diagnostic logs from different Azure Services can be streamed to Log Analytics, 
 For this sample, Azure Monitor was configured to stream logs from a Cosmos DB Service and Azure Search Service.
 An Event Hub namespace + Event Hub endpoint have to exist to complete the above step.
 After configuring the diagnostics, navigate to the Event Hub end point and in the metrics view, ensure the 'Messages' part shows incoming messages. The outgoing messages metrics will show up only after client consumers (Azure Functions in this example) are configured.
-<img src="./images/eventhubview.PNG" alt="drawing" height="350px"/>
+
+<img src="./images/eventhubview.PNG" alt="drawing" height="500px"/>
 
 ## Deploy the custom REST Service to receive the logs from Azure Functions
 This is a simple ASP.NET Core 2.0 Web API project that will receive the Logs coming in from Azure Functions (configured in the next section below). This is to mimic a third party Solution that would want to handle Diagnostic logs.
@@ -24,7 +25,7 @@ Copy the code from folder "Azure Functions Code\run.cs", available in this repos
 Since this code depends on additional packages to run, create a Project.JSON file in the Kudu console of the Function App, and copy the content of the Project.json file included in this repository. After it is saved, restart the Function App from the Azure Portal.
 Ensure the Log console on the Function's run.csx file indicates it has successfully compiled and is running.
 The Messages from Event Hubs should be visible in this console.
-<img src="./images/kuduconsole.PNG" alt="drawing" height="350px"/>
+<img src="./images/kuduconsole.PNG" alt="drawing" height="500px"/>
 
 Update the URL of the custom REST Service in the run.csx to send the Messages to (from the previous section).
 
@@ -34,4 +35,4 @@ https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-local
 
 ## View the Application Insights Telemetry
 View the Trace in Application Insights to ensure the Diagnostics Logs were received from the Function App.
-<img src="./images/appinsights.PNG" alt="drawing" height="350px"/>
+<img src="./images/appinsights.PNG" alt="drawing" height="500px"/>
