@@ -18,8 +18,6 @@ To view the telemetry when running this sample, create an Application Inisights 
 ## Create an Azure Function (Event Hub Consumer)
 Create a new Azure Function App (version 1.x is used in this example) and configure an input trigger on the EVent Hub created in the earlier steps. This link https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-first-azure-function pertains to configuring a HTTP Trigger, but the steps for Event Hub input triggers are similar.
 
-The output binding used in this example for Azure Blob Store is not essential, and can be ignored.
-
 Copy the code from folder "Azure Functions Code\run.cs", available in this repository, into the Function app's run.csx editor in the Azure Portal.
 
 Since this code depends on additional packages to run, create a Project.JSON file in the Kudu console of the Function App, and copy the content of the Project.json file included in this repository. After it is saved, restart the Function App from the Azure Portal.
@@ -33,7 +31,6 @@ Update the URL of the custom REST Service in the run.csx to send the Messages to
 Refer to these links below to understand how to develop applications using Azure Functions.
 https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference#fileupdate
 https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-local
-
 
 <img src="./images/functionapp.PNG" alt="drawing" height="500px"/>
 
