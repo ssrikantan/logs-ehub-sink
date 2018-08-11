@@ -4,13 +4,12 @@ using System.Net.Http;
 using System.Collections.Generic;
 using System.Net.Http.Headers;
 using System.Text;
+using System.Threading;
 
-//On trigger from Event Hubs, the message is received and passed on to a custom REST Service
-// The output Blob store is not necessary for this sample, but retained only for information
-public static void Run(string myEventHubMessage, TraceWriter log, out string outputBlob)
+
+public static async Task Run(string myEventHubMessage, TraceWriter log)
 {
     log.Info($"C# Event Hub trigger function processed a message: {myEventHubMessage}");
-    outputBlob = myEventHubMessage;
 
     // This step to access the message coming in, deserializing it into a .NET object
     // is required only if you want to edit the data coming in. Else we can directly
@@ -30,7 +29,7 @@ public static void Run(string myEventHubMessage, TraceWriter log, out string out
         //        resourceId = "ID001",operationName="INDEXING",category="DEMOCATEOG"
         //    }
         //);
-        HttpResponseMessage response = client.PostAsync(refUri,new StringContent(myEventHubMessage, Encoding.UTF8, "application/json")).Result;
+        HttpResponseMessage response = await client.PostAsync(refUri,new StringContent(myEventHubMessage, Encoding.UTF8, "application/json"));
         response.EnsureSuccessStatusCode();
     }
     catch(Exception ex)
@@ -40,7 +39,6 @@ public static void Run(string myEventHubMessage, TraceWriter log, out string out
 
 }
 
-//This contains the common schema structure for the Azure Diagnostic Logs 
 public class Record
 {
     public DateTime time { get; set; }
