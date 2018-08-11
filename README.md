@@ -25,9 +25,10 @@ Copy the code from folder "Azure Functions Code\run.cs", available in this repos
 Since this code depends on additional packages to run, create a Project.JSON file in the Kudu console of the Function App, and copy the content of the Project.json file included in this repository. After it is saved, restart the Function App from the Azure Portal.
 Ensure the Log console on the Function's run.csx file indicates it has successfully compiled and is running.
 The Messages from Event Hubs should be visible in this console.
-<img src="./images/kuduconsole.PNG" alt="drawing" height="500px"/>
+<img src="./images/functionapp.PNG" alt="drawing" height="700px"/>
 
 Update the URL of the custom REST Service in the run.csx to send the Messages to (from the previous section).
+<img src="./images/appinsights.PNG" alt="drawing" height="500px"/>
 
 Refer to these links below to understand how to develop applications using Azure Functions.
 https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference#fileupdate
