@@ -1,5 +1,5 @@
 # logs-ehub-sink
-Sample that uses Event Hubs as a common sink for Diagnostic Logs that originate from across different Azure Services. Azure Functions uses an input trigger from Event Hubs to pick the log messages and sends them to a custom REST Service
+Sample demonstrates the use of Azure Event Hubs as a common sink for streaming Diagnostic Logs that originate from across different Azure Services. Azure Functions uses an input trigger from Event Hubs to pick the log messages and sends them to a custom REST Service
 
 ## Streaming diagnostic logs from Azure Monitor
 Diagnostic logs from different Azure Services can be streamed to Log Analytics, or to Azure Event Hubs, using Azure Monitor. This article - https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/monitoring-stream-diagnostic-logs-to-event-hubs - has the guidance.
